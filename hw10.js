@@ -37,7 +37,7 @@ console.log(targetNumber);
 let userChoice;
 let attempts = 0;
 while (true) {
-  userChoice = confirm("Press the button");
+  userChoice = confirm("Натисніть на кнопку");
   attempts += 1;
   if (!userChoice) break;
 }
